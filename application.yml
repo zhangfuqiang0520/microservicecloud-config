@@ -6,9 +6,9 @@
 spring:
   profiles: dev
   application:
-   name: microconfig-test-dev
+   name: microconfig-config-whzl-dev
 ---
 spring:
   profiles: default
   application:
-    name: microconfig-test-default
+    name: microconfig-config-whzl-test
