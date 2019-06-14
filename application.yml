@@ -1,21 +1,3 @@
 ﻿spring:
   profiles:
-   active:
-   - dev
----
-spring:
-  profiles: dev
-  application:
-   name: microconfig-config-whzl-dev
----
-spring:
-  profiles: test
-  application:
-    name: microconfig-config-whzl-test
----
-spring:
-  profiles: pro
-  application:
-    name: microconfig-config-whzl-pro
-server:
-  port: 9966
+   active: dev
