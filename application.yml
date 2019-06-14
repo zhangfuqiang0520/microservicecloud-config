@@ -1,14 +1,14 @@
 spring:
   profiles:
-    active: 
+    active:
       -dev
 ---
 spring:
   profiles: dev
     application：
-      name: microservicecloud-config-whzl-dev
+    name: microservicecloud-config-whzl-dev
 ---
 spring:
   profiles: test
     application：
-      name: microservicecloud-config-whzl-test
+    name: microservicecloud-config-whzl-test
